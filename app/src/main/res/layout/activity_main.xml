@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hector.dialogosandroid.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnCambiaFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar fecha" />
+
+    <Button
+        android:id="@+id/btnCambiahora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Hora" />
+
+    <Button
+        android:id="@+id/btnCambiaColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar color" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color:"
+        android:textSize="24sp" />
+</android.widget.LinearLayout>
